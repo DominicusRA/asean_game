@@ -146,3 +146,10 @@ footer{
     opacity: 1;
     right: 0;
   }
+
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
