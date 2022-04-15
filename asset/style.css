@@ -1,4 +1,4 @@
-.active{
+.active-header{
     font-weight: bold;
 }
 .area1{
@@ -82,15 +82,16 @@ footer{
 }
 #myVideo {
 
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
 
-    position: fixed;
-    object-position: center;
-    object-fit: cover;
-    z-index: -1;
+    /* position: fixed; */
+    /* object-position: center; */
+    /* object-fit: cover; */
+    /* z-index: -1; */
     /* top: 0; */
     /* right: 0; */
+    /* left: 0; */
     /* bottom: 0; */
     /* left:0; */
     /* object-fit: cover; */
@@ -107,6 +108,9 @@ footer{
     width:100%;
     height:60px;   /* Height of the footer */
     background:#6cf;
+}
+.footer-dark{
+    background-color: rgb(34, 34, 34);
 }
 
 .button {
@@ -153,3 +157,30 @@ footer{
     height: 250px;
     border-radius: 50%;
 }
+
+.video-warp {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    /* height: 300px; */
+  /* width: 300px; */
+  /* overflow: hidden; */
+  /* position: relative; */
+}
+.video-warp video {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* right: 0; */
+    /* top: 5; */
+    /* position: absolute; */
+    /* object-fit: cover;
+    object-position: center; */
+    z-index: -1;
+    max-width: 100%;
+    /* min-height: 100%; */
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
